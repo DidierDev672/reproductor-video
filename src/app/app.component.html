@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="grid-video">
+        @for(video of listVideo; track $index){
+            <app-video-player [videoSRC]="video.src" />
+        }
+    </div>
+</div>
